@@ -69,8 +69,8 @@ const Footer = () => {
         <div className="border-t border-border pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-muted-foreground">© 2026 Wanderlux Travel. All rights reserved.</p>
           <div className="flex gap-6 text-xs text-muted-foreground">
-            <span className="hover:text-primary cursor-pointer transition-colors">Privacy Policy</span>
-            <span className="hover:text-primary cursor-pointer transition-colors">Terms of Service</span>
+            <Link to="/privacy" className="hover:text-primary cursor-pointer transition-colors">Privacy Policy</Link>
+            <Link to="/terms" className="hover:text-primary cursor-pointer transition-colors">Terms of Service</Link>
           </div>
         </div>
       </div>
